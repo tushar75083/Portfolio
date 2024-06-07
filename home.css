@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:rgb(44, 43, 43); */
+}
+.container .nav{
+    width: 100vw;
+    height: 60px;
+    color: white;
+    /* background-color:black; */
+    padding-top: 30px;
+    
+}
+.container .nav h1{
+    font-size: 35px;
+    color: yellow;
+}
+.nav-div{
+    margin-left: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: -35px;
+   
+}
+.nav-div p {
+    font-weight: bold;
+    /* background: transparent; */
+}
+
+.nav-div a{
+    font-size: 30px;
+}
+
+a{
+    
+    text-decoration: none;
+    background: transparent;
+    /* color: blue; */
+
+}
+button a{
+    color: blue;
+}
+
+
+.container-body .content{
+    height: 450px;
+    width: 1000px;
+    /* background-color: pink; */
+    margin-top: 100px;
+    margin-left: 250px;
+    display: flex;
+}
+.headings{
+    /* background-color: brown; */
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.headings #start{
+    font-size: 25px;
+}
+.headings h1{
+    font-size: 41px;
+    margin: 20px 0px;
+}
+.headings h1 span{
+    font-weight: bold;
+    color: rgb(246, 255, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.headings p{
+    font-size: 21px;
+    text-align: justify;
+    color: rgba(169, 165, 165, 0.991);
+    margin-top: 20px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(10, 252, 10);
+    
+}
+button:hover{
+    height: 35px;
+    width: 105px;
+    /* font-size: 110%; */
+}
+.image{
+    margin-left: 50px;
+}
+img{
+    width: 300px;
+}

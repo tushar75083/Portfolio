@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* NAVBAR CSS START*/
+
+.nav{
+    width: 100vw;
+    height: 60px;
+    color: white;
+    /* background-color:black; */
+    padding-top: 30px;
+    
+}
+.nav-div{
+    margin-left: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: -35px;
+   
+}
+.nav h1{
+    font-size: 35px;
+    color: yellow;
+}
+.nav-div p {
+    font-weight: bold;
+    /* background: transparent; */
+}
+
+a{
+    text-decoration: none;
+    background: transparent;
+    /* color: blue; */
+
+}
+
+.nav-div a{
+    font-size: 30px;
+}
+
+/* NAVBAR CSS END*/
+
+header{
+    /* background-color: rgb(233, 118, 118); */
+    
+    padding-top: 70px;
+    padding-left: 540px;
+   
+}
+header h1{
+    color: rgb(255, 255, 0);
+    font-size: 60px;
+}
+main #content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+main #content #second{
+    width: 40%;
+}
+main #content #first{
+    width: 30%;
+}
+main #content #first h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    color: cyan;
+}
+main #content #first p{
+    font-size: 22px;
+    text-align: justify;
+}
+main #content #first b{
+    color: rgb(55, 255, 0);
+}
+main #content #second{
+    /* background-color: rgb(192, 151, 231); */
+}
+#content #second #edu h2{
+    font-size: 30px;
+    color: cyan;
+}
+#content #second #edu p{
+    font-size: 20px;
+}
